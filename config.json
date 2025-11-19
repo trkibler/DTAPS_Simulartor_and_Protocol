@@ -1,0 +1,13 @@
+{
+    "duration": 3600.0,
+    "network_size": 10,
+    "disruption_rate": 0.8,
+    "disruption_pattern": "UNIFORM_RANDOM",
+    "connectivity_window_min": 1.0,
+    "connectivity_window_max": 30.0,
+    "message_generation_rate": 0.1,
+    "message_size_range": [ 100, 10000 ],
+    "bandwidth_range": [ 1000, 1000000 ],
+    "dtaps_mode": "BALANCED",
+    "network_topology": "RANDOM_GRAPH"
+}

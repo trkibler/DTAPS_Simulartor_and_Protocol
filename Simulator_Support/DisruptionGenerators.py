@@ -1,9 +1,9 @@
 from typing import List
 import numpy as np
 #local imports
-from SimulationEvent import SimulationEvent
-from SimulatorConfig import DisruptionPattern
-from Config import SimulationConfig
+from Simulator_Support.SimulationEvent import SimulationEvent
+from Simulator.SimulatorData import DisruptionPattern
+from Simulator.Config import SimulationConfig
 
 # ============================================================================
 # NETWORK DISRUPTION GENERATORS

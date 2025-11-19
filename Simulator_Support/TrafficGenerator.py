@@ -1,8 +1,8 @@
 import numpy as np
 from typing import List
 #local imports
-from Config import SimulationConfig
-from SimulationEvent import SimulationEvent
+from Simulator.Config import SimulationConfig
+from Simulator_Support.SimulationEvent import SimulationEvent
 
 # ============================================================================
 # MESSAGE GENERATION AND TRAFFIC PATTERNS

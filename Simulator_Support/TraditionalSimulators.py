@@ -1,7 +1,7 @@
-from ProtocolSimulator import ProtocolSimulator
-from SimulationEvent import SimulationEvent
-from Config import SimulationConfig
-from SimulatorConfig import PerformanceMetrics, DisruptionPattern
+from Simulator.ProtocolSimulator import ProtocolSimulator
+from Simulator_Support.SimulationEvent import SimulationEvent
+from Simulator.Config import SimulationConfig
+from Simulator.SimulatorData import PerformanceMetrics, DisruptionPattern
 
 class TraditionalTCPSimulator(ProtocolSimulator):
     """Traditional TCP protocol simulator for comparison"""

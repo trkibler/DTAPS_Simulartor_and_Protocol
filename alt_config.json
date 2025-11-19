@@ -1,0 +1,13 @@
+{
+    "duration": 5555.0,
+    "network_size": 77,
+    "disruption_rate": 0.99,
+    "disruption_pattern": "REALISTIC_MOBILE",
+    "connectivity_window_min": 5.0,
+    "connectivity_window_max": 50.0,
+    "message_generation_rate": 0.25,
+    "message_size_range": [ 30, 3000 ],
+    "bandwidth_range": [ 600, 6000 ],
+    "dtaps_mode": "HIGH_RELIABILITY",
+    "network_topology": "SMALL_WORLD"
+}

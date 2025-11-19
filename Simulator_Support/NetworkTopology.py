@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from dataclasses import dataclass
 #local imports
-from Config import SimulationConfig
-from SimulatorConfig import NetworkTopology
+from Simulator.Config import SimulationConfig
+from Simulator.SimulatorData import NetworkTopology
 
 try:
     import networkx as nx

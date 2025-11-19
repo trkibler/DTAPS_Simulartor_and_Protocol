@@ -2,9 +2,9 @@ from enum import Enum
 from collections import defaultdict, deque
 import numpy as np
 #local imports
-from ProtocolSimulator import ProtocolSimulator
-from SimulationEvent import SimulationEvent
-from Config import SimulationConfig, DTAPSMode
+from Simulator.ProtocolSimulator import ProtocolSimulator
+from Simulator_Support.SimulationEvent import SimulationEvent
+from Simulator.Config import SimulationConfig, DTAPSMode
 
 
 # ============================================================================
